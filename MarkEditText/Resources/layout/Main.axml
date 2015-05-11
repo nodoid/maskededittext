@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom_edit="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.companyname.maskedEditText"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.companyname.maskedEditText.MaskedEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom_edit:mask="(cc) cccc-cccc"
+        custom_edit:char_representation="c"
+        android:id="@+id/phoneEdit" />
+    <com.companyname.maskedEditText.MaskedEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom_edit:mask="(cc) cccc-cccc"
+        custom_edit:char_representation="c"
+        android:hint="(11) 1111-1111"
+        android:id="@+id/phoneEditWithHint" />
+    <com.companyname.maskedEditText.MaskedEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom_edit:mask="###.###.###-##"
+        android:inputType="number"
+        android:id="@+id/cpfEdit" />
+    <com.companyname.maskedEditText.MaskedEditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom_edit:mask="##/##/####"
+        android:hint="01/09/1989"
+        android:inputType="number"
+        android:id="@+id/dateEdit" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.companyname.maskedEditText.MaskedEditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            custom_edit:mask="abababab"
+            android:hint="abababab"
+            app:char_representation="a"
+            android:id="@+id/changingText" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Representation"
+            android:inputType="number"
+            android:id="@+id/charRepButton" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mask"
+            android:inputType="number"
+            android:id="@+id/maskButton" />
+    </LinearLayout>
+</LinearLayout>
