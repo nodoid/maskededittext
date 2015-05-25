@@ -5,26 +5,26 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <com.companyname.maskedEditText.MaskedEditText
+    <com.companyname.maskedEditText$MaskedEditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         custom_edit:mask="(cc) cccc-cccc"
         custom_edit:char_representation="c"
         android:id="@+id/phoneEdit" />
-    <com.companyname.maskedEditText.MaskedEditText
+    <com.companyname.maskedEditText$MaskedEditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         custom_edit:mask="(cc) cccc-cccc"
         custom_edit:char_representation="c"
         android:hint="(11) 1111-1111"
         android:id="@+id/phoneEditWithHint" />
-    <com.companyname.maskedEditText.MaskedEditText
+    <com.companyname.maskedEditText$MaskedEditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         custom_edit:mask="###.###.###-##"
         android:inputType="number"
         android:id="@+id/cpfEdit" />
-    <com.companyname.maskedEditText.MaskedEditText
+    <com.companyname.maskedEditText$MaskedEditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         custom_edit:mask="##/##/####"
@@ -35,7 +35,7 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
-        <com.companyname.maskedEditText.MaskedEditText
+        <com.companyname.maskedEditText$MaskedEditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

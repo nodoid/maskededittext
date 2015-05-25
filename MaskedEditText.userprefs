@@ -1,16 +1,20 @@
 ﻿<Properties StartupItem="MarkEditText/MaskedEditText.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.10.71.34.101:5555" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="MarkEditText/MainActivity.cs" Line="17" Column="13" />
-      <File FileName="MarkEditText/MaskedText.cs" Line="30" Column="61" />
-      <File FileName="MarkEditText/Range.cs" Line="1" Column="25" />
-      <File FileName="MarkEditText/RawText.cs" Line="2" Column="17" />
+      <File FileName="MarkEditText/MainActivity.cs" Line="18" Column="49" />
+      <File FileName="MarkEditText/MaskedText.cs" Line="1" Column="1" />
+      <File FileName="MarkEditText/Range.cs" Line="1" Column="1" />
+      <File FileName="MarkEditText/RawText.cs" Line="1" Column="1" />
       <File FileName="MarkEditText/Resources/values/attrs.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Paul/Developer/MarkEditText/maskededittext/MarkEditText/MaskedText.cs" line="27" column="1" />
+      <Breakpoint file="/Users/Paul/Developer/MarkEditText/maskededittext/MarkEditText/MaskedText.cs" line="33" column="1" />
+      <Breakpoint file="/Users/Paul/Developer/MarkEditText/maskededittext/MarkEditText/MaskedText.cs" line="52" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MaskedEditText AndroidDesignerPreferredDevice="Nexus 4" />
